@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vege"
+    tools:context=".fragments.FragmentTh" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/HelloLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.9"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="32sp" />
+
+        <SearchView
+            android:id="@+id/search_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.9" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/resView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:background="#88FFFFFF"/>
+
+        <Button
+            android:id="@+id/buttonOrder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.9"
+            android:backgroundTint="#9BD070"
+                android:text="Order"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</FrameLayout>
+

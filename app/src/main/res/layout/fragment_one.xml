@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/vback"
+    tools:context=".fragments.FragmentOne">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="148dp">
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="email:"
+        android:textColor="@color/black"
+        android:textSize="32sp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddressLog"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:ems="10"
+        android:hint="Enter your email"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="password:"
+        android:textColor="@color/black"
+        android:textSize="32sp" />
+
+    <EditText
+        android:id="@+id/editTextTextPasswordLog"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:ems="10"
+        android:hint="Enter your password"
+        android:inputType="textPassword"
+        android:paddingVertical="10dp" />
+
+    <Button
+        android:id="@+id/buttonFromFrag1To2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#9BD070"
+        android:text="Reg"
+        android:textColor="@color/white"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/buttonFromFrag1To3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#9CD171"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textSize="32sp" />
+
+</LinearLayout>

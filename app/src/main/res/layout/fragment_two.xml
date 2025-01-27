@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.FragmentTwo">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="email"
+            android:textSize="32sp" />
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:ems="10"
+            android:hint="Enter your email"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textViewPass1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="password"
+            android:textColor="@color/black"
+            android:textSize="32sp" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword1"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:ems="10"
+            android:hint="Enter your password"
+            android:inputType="textPassword"
+            android:paddingVertical="10dp" />
+
+        <TextView
+            android:id="@+id/textViewPass2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="password"
+            android:textColor="@color/black"
+            android:textSize="32sp" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword2"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:ems="10"
+            android:hint="Repeat password"
+            android:inputType="textPassword"
+            android:paddingVertical="10dp" />
+
+        <TextView
+            android:id="@+id/textViewPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="phone"
+            android:textColor="@color/black"
+            android:textSize="32sp" />
+
+        <EditText
+            android:id="@+id/editTextPhone"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:ems="10"
+            android:hint="Enter your phone"
+            android:inputType="phone" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="43dp">
+
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/buttonReg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#9CD171"
+            android:text="Reg"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+
+</LinearLayout>
